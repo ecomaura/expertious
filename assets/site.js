@@ -1,4 +1,5 @@
 
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll(".card,.tile,.steps li,.dcard,.scard,.cta").forEach(function(el){el.classList.add("rv");io.observe(el)})}
 document.querySelector('.burger').onclick=function(){var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)};
 var f=document.getElementById('enq');if(f){
 var S={solutions:['Digital Marketing','SEO','AIO / GEO / AEO'],capital:['Real Estate','Capital Markets','Forex & Crypto Markets','Long-term Investment','Short-term Trading','Algo & Automations']};
