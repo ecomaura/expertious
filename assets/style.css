@@ -86,3 +86,8 @@ nav.main{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;
 @media(max-width:900px){.g4{grid-template-columns:1fr 1fr}.steps li:after{display:none}.hero{min-height:560px}.dcard{min-height:300px}
 .stick{display:block;position:fixed;right:1rem;bottom:1rem;z-index:60;background:var(--navy);color:#fff;padding:.8rem 1.2rem;border-radius:99px;font-weight:800;text-decoration:none;box-shadow:0 10px 24px rgba(14,27,54,.35)}footer.site{padding-bottom:5rem}}
 @media(max-width:560px){.g4{grid-template-columns:1fr}}
+/* Brand logos */
+.logo img.lg{display:block;height:40px;width:auto}
+.logo img.lg.div{height:46px}
+.logo img.mk{display:block;width:34px;height:34px}
+@media(max-width:560px){.logo img.lg{height:32px}.logo img.lg.div{height:38px}}
